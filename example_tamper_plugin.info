@@ -1,0 +1,4 @@
+name = Example Tamper Plugin
+description = Provide example feeds tamper plugin (padding).
+core = 7.x
+dependencies[] = ctools
