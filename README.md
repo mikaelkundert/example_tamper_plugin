@@ -7,6 +7,8 @@ This repository is created for recovering an old blog post from year 2011. Note
 that some of depency modules might have known vulnerabilities. Run this only on
 testing purposes!
 
+![Screenshot of custom tamper plugin in a dropdown list](screenshot.png)
+
 ## Running on Docker
 
 ```
