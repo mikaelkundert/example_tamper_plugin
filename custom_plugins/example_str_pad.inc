@@ -34,3 +34,11 @@ function example_tamper_plugin_str_pad_form($importer, $element_key, $settings) 
   );
   return $form;
 }
+
+/**
+ * Callback to run the tampering.
+ */
+function example_tamper_plugin_str_pad_callback($result, $item_key, $element_key, &$field, $settings) {
+  $type = isset($settings['type']) && in_array($settings['type'], array(STR_PAD_RIGHT, STR_PAD_LEFT, STR_PAD_BOTH)) ? $settings['type'] : STR_PAD_RIGHT;
+  $field = str_pad($field, intval($settings['length']), $type);
+}
