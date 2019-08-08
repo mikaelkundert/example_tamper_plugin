@@ -3,7 +3,9 @@
 This repository contains example code for writing a custom Feeds
 Tamper Plugin.
 
-This repository is created for recovering an old blog post from year 2011.
+This repository is created for recovering an old blog post from year 2011. Note
+that some of depency modules might have known vulnerabilities. Run this only on
+testing purposes!
 
 ## Running on Docker
 
